@@ -12,7 +12,7 @@ const CardList = ({Monsters}) =>{
 					<Card 
 						key={i} 
 						id={Monsters[i].id} 
-						username={Monsters[i].username} 
+						name={Monsters[i].name} 
 						email={Monsters[i].email}
 					/>
 				);
